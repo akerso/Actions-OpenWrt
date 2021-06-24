@@ -26,3 +26,7 @@ sed -i "s/OpenWrt /OpenWrt $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/le
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's?admin/status/channel_analysis??' package/feeds/luci/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json
+
+sed -i "s/OpenWrt_2G/RdU/g" feeds/custom/mt-drivers/mt_wifi/files/mt7603.dat
+sed -i "s/OpenWrt_5G/RdU_5G/g" feeds/custom/mt-drivers/mt_wifi/files/mt7612.dat
+sed -i "s/OpenWrt_5G/RdU_5G/g" feeds/custom/mt-drivers/mt_wifi/files/mt7615.dat
