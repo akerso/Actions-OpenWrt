@@ -20,12 +20,12 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 5.10/AC2100.config
-  DIY_P1_SH: 5.10/diy-part1.sh
-  DIY_P2_SH: 5.10/diy-part2.sh
+  CONFIG_FILE: 5.4/ac2100.config
+  DIY_P1_SH: 5.4/diy-part1.sh
+  DIY_P2_SH: 5.4/diy-part2.sh
   UPLOAD_CONFIG: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
