@@ -2,7 +2,7 @@
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # 修改 argon 为默认主题
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能使用中文）
 #sed -i '/OpenWrt/i\uci set system.@system[0].hostname='OpenWrt-Lede'' package/lean/default-settings/files/zzz-default-settings
