@@ -20,7 +20,7 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 #git clone  https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
 git clone  https://github.com/linkease/istore.git package/istore
 git clone  https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
-git clone -b master https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
+#git clone -b master https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
