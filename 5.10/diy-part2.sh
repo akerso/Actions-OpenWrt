@@ -18,8 +18,8 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/ramips/Makefile
 
 #git clone  https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
-git clone  https://github.com/linkease/istore.git package/istore
-git clone  https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
+#git clone  https://github.com/linkease/istore.git package/istore
+#git clone  https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 #git clone -b master https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
 
 ./scripts/feeds update -a
