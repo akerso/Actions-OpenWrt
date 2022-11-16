@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: openwrt-AC2100
+name: immortalwrt-E1
 
 on:
   repository_dispatch:
