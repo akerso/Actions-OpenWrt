@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: redmi-AC2100-5.10
+name: hilink-opc-h66k-6.1
 
 on:
   repository_dispatch:
