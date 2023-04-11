@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/akerso/immortalwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/immortalwrt/lean-lede
+  REPO_BRANCH: lede
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 5.4/h66k.config
   DIY_P1_SH: 5.10/diy-part1.sh
