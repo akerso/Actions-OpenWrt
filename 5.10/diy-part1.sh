@@ -9,5 +9,5 @@
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 #rm -rf ./package/lean/luci-theme-argon&& git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 #git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config  #argon主题设置
-#git clone https://github.com/ximiTech/luci-app-msd_lite package/net/luci-app-msd_lite
+#git clone https://github.com/ximiTech/luci-app-msd_lite package/lean/luci-app-msd_lite
 
