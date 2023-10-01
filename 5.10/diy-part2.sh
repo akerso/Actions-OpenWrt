@@ -15,7 +15,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-design/g' feeds/luci/collections/luci/
 
 #sed -i '1i src/gz openwrt_custom https://op.supes.top/packages/mipsel' /etc/opkg/distfeeds.conf
 
-sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=5.10/g' target/linux/rockchip/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=5.10/g' target/linux/rockchip/Makefile
 
 #git clone  https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
 #git clone  https://github.com/linkease/istore.git package/istore
