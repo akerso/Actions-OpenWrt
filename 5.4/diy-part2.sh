@@ -2,7 +2,7 @@
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # 修改 argon 为默认主题
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-design/g' feeds/luci/collections/luci/Makefile
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能使用中文）
 #sed -i '/OpenWrt/i\uci set system.@system[0].hostname='OpenWrt-Lede'' package/lean/default-settings/files/zzz-default-settings
@@ -21,6 +21,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 #git clone  https://github.com/linkease/istore.git package/istore
 #git clone  https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 #git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
+#msd_lite
+git clone -b main https://github.com/bauw2008/luci-app-msd.git
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
